@@ -1,0 +1,21 @@
+.widget_area {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 1000;
+}
+
+@media (orientation: portrait) {
+  .widget_area {
+    position: fixed;
+    height: 40dvh;
+    top: unset;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-bottom: 10px;
+  }
+}

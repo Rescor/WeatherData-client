@@ -1,0 +1,26 @@
+.widget_container {
+  background-color: rgba(40, 40, 40, 0.7);
+  backdrop-filter: blur(3px);
+  margin-bottom: 10px;
+  border-radius: 15px;
+  color: white;
+}
+
+.widget_title {
+  margin: 0;
+  padding: 10px 0 14px 12px;
+  font-size: 19px;
+  color: white;
+  cursor: default;
+}
+
+@media (orientation: portrait) {
+  .widget_container {
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+
+  .widget_title {
+    font-size: 18px;
+  }
+}
